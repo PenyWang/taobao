@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button, input, textarea {
+  outline: none;
+}
+
+em, i {
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+.border-box {
+  box-sizing: border-box;          /* 常规边框padding向内收缩 */
+  -moz-box-sizing: border-box;     /* firefox */
+  -webkit-box-sizing: border-box;  /* chrome */
+  -ms-box-sizing: border-box;      /* IE8以下 */
+  -o-box-sizing: border-box;       /* opera */
+}
+
+.content-box{
+  box-sizing: content-box;          /* 常规解除border-box */
+  -moz-box-sizing: content-box;     /* firefox */
+  -webkit-box-sizing: content-box;  /* chrome */
+  -ms-box-sizing: content-box;      /* IE8以下 */
+  -o-box-sizing: content-box;       /* opera */
+}
+
+.clearfix::after{ /*清除浮动*/
+  content: "";
+  display: block;
+  clear: both;
+}

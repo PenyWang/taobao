@@ -3,6 +3,8 @@
 
 body{
   background: #f5f5f5;
+  color: #3C3C3C;
+  -webkit-font-smoothing: antialiased;
 }
 
 .common-bd{
@@ -21,12 +23,93 @@ body{
 
 .site-nav-bd .site-nav-bd-l{
   float: left;
-  width: 330px;
+  width: 294px;
   height: 100%;
+}
+
+.site-nav-bd .site-nav-menu{
+  float: left;
+  padding: 0 6px;
+}
+
+.site-nav-bd .site-nav-menu.dd{
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+
+.site-nav-bd .site-nav-menu.dd:hover{
+  background: #fff;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+.site-nav-bd .site-nav-pipe{
+  display: block;
+  float: left;
+  height: 100%;
+  padding: 0 2px;
+  line-height: 35px;
+  font-size: 12px;
+  color: #ddd;
+}
+
+.site-nav-bd .site-nav-menu a{
+  display: block;
+  float: left;
+  height: 100%;
+  margin-right: 7px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+  color: #6C6C6C;
+}
+
+.site-nav-bd .site-nav-menu .h{
+  color: #f40;
+}
+
+.site-nav-bd .site-nav-menu a:hover{
+  color: #f40;
+}
+
+.site-nav-bd .site-nav-menu a:hover .icon-shoucang{
+  color: #f40;
+}
+
+.site-nav-bd .site-nav-menu .icon-xiala,
+.site-nav-bd .site-nav-menu .icon-shoucang{
+  display: block;
+  float: left;
+  height: 100%;
+  line-height: 35px;
+  font-size: 12px;
+  color: #9c9c9c;
+  transform: scale(0.5);
+}
+
+.site-nav-bd .site-nav-menu .icon-shoucang.icon-size{
+  margin-right: 3px;
+  transform: scale(1);
+}
+
+.site-nav-bd .site-nav-menu .icon-gouwuchekong,
+.site-nav-bd .site-nav-menu .icon-menu2{
+  display: block;
+  float: left;
+  height: 100%;
+  margin-right: 3px;
+  line-height: 35px;
+  font-size: 12px;
+  color: #f40;
+}
+
+.site-nav-bd .site-nav-menu .icon-menu2{
+  transform: scaleX(.7);
 }
 
 .site-nav-bd .site-nav-bd-r{
   float: right;
-  width: 330px;
+  width: 607px;
   height: 100%;
 }

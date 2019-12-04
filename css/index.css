@@ -7,7 +7,7 @@ body{
   -webkit-font-smoothing: antialiased;
 }
 
-.common-bd{
+.layer{
   width: 1190px;
   margin: 0 auto;
 }
@@ -112,4 +112,30 @@ body{
   float: right;
   width: 607px;
   height: 100%;
+}
+
+
+/* ---------------------------------------------------- */
+
+
+.site-superbanner{
+  background: url(https://gw.alicdn.com/tfs/TB1b4SkoHj1gK0jSZFuXXcrHpXa-1917-100.png) no-repeat top center #ff4600;
+}
+
+.site-superbanner .site-superbanner-inner{
+  height: 100px;
+}
+
+.site-superbanner .site-superbanner-inner li{
+  float: left;
+  width: 209px;
+  height: 75px;
+  margin-right: 10px;
+  border: 1px solid;
+}
+
+.site-superbanner .site-superbanner-inner .tall-logo{
+  width: 80px;
+  height: 80px;
+  margin: 10px 10px 10px 15px;
 }

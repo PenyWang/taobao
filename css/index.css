@@ -1,5 +1,4 @@
 @import url(./global.css);
-@import url(./global-index.css);
 
 body{
   background: #f5f5f5;
@@ -172,10 +171,26 @@ body{
   background: url(https://gw.alicdn.com/tfs/TB1YvekoHj1gK0jSZFOXXc7GpXa-209-75.png);
 }
 
-
-
 .site-superbanner .site-superbanner-inner .item-6{
   margin: 0;
   background: url(https://gw.alicdn.com/tfs/TB1W.SkoKH2gK0jSZJnXXaT1FXa-209-75.png);
 }
 
+.site-superbanner .site-superbanner-inner .desc-wrapper{
+  margin-left: 20px;
+  margin-top: 12px;
+  color: #fff;
+}
+
+.site-superbanner .site-superbanner-inner .desc-wrapper .title{
+  height: 28px;
+  line-height: 28px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.site-superbanner .site-superbanner-inner .desc-wrapper .subtitle{
+  line-height: 20px;
+  height: 16px;
+  font-size: 14px;
+}

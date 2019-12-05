@@ -1,21 +1,36 @@
-body {
+body,p {
   margin: 0;
-}
-
-a {
-  text-decoration: none;
 }
 
 button, input, textarea {
   outline: none;
 }
 
-em, i {
-  font-style: normal;
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  font-weight: normal;
 }
 
-ul {
+ul{
+  padding: 0;
+  margin: 0;
   list-style: none;
+}
+
+div,li{
+  box-sizing: border-box;          /* 常规边框padding向内收缩 */
+  -moz-box-sizing: border-box;     /* firefox */
+  -webkit-box-sizing: border-box;  /* chrome */
+  -ms-box-sizing: border-box;      /* IE8以下 */
+  -o-box-sizing: border-box;       /* opera */
+}
+
+a {
+  text-decoration: none;
+}
+
+em, i {
+  font-style: normal;
 }
 
 .border-box {

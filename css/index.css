@@ -206,19 +206,27 @@ body{
 }
 
 
-.decorations-item{
+.decorations-main-item{
   position: absolute;
   width: 360px;
   height: 800px;
   top: 0;
 }
 
-.decorations-item.l{
+.decorations-main.l{
   left: -360px;
   background: url(https://gw.alicdn.com/tfs/TB1OD7CoET1gK0jSZFhXXaAtVXa-360-800.png) no-repeat;
 }
 
-.decorations-item.r{
+.decorations-main.r{
   right: -360px;
   background: url(https://gw.alicdn.com/tfs/TB10x3Eoy_1gK0jSZFqXXcpaXXa-360-800.png) no-repeat;
+}
+
+
+.decorations-main-item{
+  position: fixed;
+  width: 360px;
+  height: 800px;
+  top: 0;
 }

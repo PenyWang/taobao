@@ -194,3 +194,31 @@ body{
   height: 16px;
   font-size: 14px;
 }
+
+
+
+/**************************************************************************/
+
+.site-main{
+  position: relative;
+  height: 1010px;
+  background: red;
+}
+
+
+.decorations-item{
+  position: absolute;
+  width: 360px;
+  height: 800px;
+  top: 0;
+}
+
+.decorations-item.l{
+  left: -360px;
+  background: url(https://gw.alicdn.com/tfs/TB1OD7CoET1gK0jSZFhXXaAtVXa-360-800.png) no-repeat;
+}
+
+.decorations-item.r{
+  right: -360px;
+  background: url(https://gw.alicdn.com/tfs/TB10x3Eoy_1gK0jSZFqXXcpaXXa-360-800.png) no-repeat;
+}

@@ -197,7 +197,7 @@ body{
 
 
 
-/*********************************site-screen*****************************************/
+/*********************************site-aside-bg*****************************************/
 
 .site-screen{
   display: flex;
@@ -243,6 +243,33 @@ body{
   background: url(https://gw.alicdn.com/tfs/TB1dAEHoBr0gK0jSZFnXXbRRXXa-360-570.png) no-repeat  left bottom/360px 570px;
 }
 
-.site-main-cup{
-  height: 141px;
+
+/* *************************top-wrap******************************** */
+.top-wrap{
+  position: relative;
+  display: flex;
+  height: 140px;
+}
+
+.tbh-logo{
+  position: absolute;
+  width: 190px;
+  height: 100%;
+  left: 0;
+  background: red;
+}
+
+.tbh-search{
+  width: 630px;
+  height: 100%;
+  margin: 0 auto;
+  background: green;
+}
+
+.tbh-qr-wrapper{
+  position: absolute;
+  width: 120px;
+  height: 100%;
+  right: 120px;
+  background: red;
 }

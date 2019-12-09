@@ -278,7 +278,6 @@ body{
   width: 100%;
   height: 87px;
   top: 32px;
-  background: red;
 }
 
 .tbh-search .search-wrap .search-triggers{
@@ -296,13 +295,56 @@ body{
   float: left;
   width: 36px;
   height: 22px;
-  background: blue;
+  line-height: 22px;
   margin-right: 4px;
+  font-size: 12px;
+  color: #f40;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tbh-search .search-wrap .search-triggers .goods-search-tabs .goods-search-item.active{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: linear-gradient(to right,#f90,#f50);
+  color: #fff;
+}
+
+.tbh-search .search-wrap .search-triggers .goods-search-tabs .goods-search-item:hover{
+  background: #ffeee5;
+}
+
+.tbh-search .search-wrap .search-triggers .goods-search-tabs .goods-search-item.active:hover{
+  background: linear-gradient(to right,#f90,#f50);
 }
 
 .tbh-search .search-wrap .search-panel{
+  display: flex;
   width: 100%;
   height: 40px;
+}
+
+.tbh-search .search-wrap .search-panel .combobox{
+  width: 555px;
+  height: 100%;
+  border: 2px solid #f50;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.tbh-search .search-wrap .search-panel .search-button{
+  width: 74px;
+  height: 100%;
+  line-height: 40px;
+  margin-left: -2px;
+  background: linear-gradient(to right,#f90,#f40);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
 }
 
 .tbh-search .search-wrap .search-ft{
@@ -313,9 +355,17 @@ body{
 }
 
 .tbh-qr-wrapper{
+  display: flex;
   position: absolute;
   width: 120px;
   height: 100%;
   right: 120px;
-  background: red;
+  align-items: center;
+}
+
+.tbh-qr-wrapper a{
+  display: block;
+  width: 120px;
+  height: 120px;
+  background: url(https://gw.alicdn.com/tfs/TB1nSUAouT2gK0jSZFvXXXnFXXa-120-120.png);
 }

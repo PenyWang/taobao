@@ -330,6 +330,15 @@ body{
   border: 2px solid #f50;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  overflow: hidden;
+}
+
+.tbh-search .search-wrap .search-panel .combobox input{
+  width: 80%;
+  height: 34px;
+  padding-left: 23px;
+  border: none;
+  background: url(../images/search.png) no-repeat  8px 13px/12px 12px;
 }
 
 .tbh-search .search-wrap .search-panel .search-button{

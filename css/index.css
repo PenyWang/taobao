@@ -3,6 +3,7 @@
 body{
   background:#f4f4f4;
   color: #3C3C3C;
+  font-family: tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -356,7 +357,8 @@ body{
 }
 
 .tbh-search .search-wrap .search-panel .search-button{
-  width: 74px;
+  /* width: 74px; */
+  flex: 1;
   height: 100%;
   line-height: 40px;
   margin-left: -2px;
@@ -368,6 +370,7 @@ body{
   font-weight: 700;
   text-align: center;
   cursor: pointer;
+  z-index: 1;
 }
 
 .tbh-search .search-wrap .search-ft{
@@ -410,8 +413,67 @@ body{
   background: url(https://gw.alicdn.com/tfs/TB1nSUAouT2gK0jSZFvXXXnFXXa-120-120.png);
 }
 
-.site-screen-main .zhuti{
+.site-screen-main .tbh-nav{
   width: 100%;
-  height: 40px;
-  background: #f50;
+  height: 30px;
+  line-height: 30px;
+  background: linear-gradient(to right, #ff9000, #ff5000);
+  color: #fff;
+}
+
+.site-screen-main .tbh-nav h2{
+  float: left;
+  width: 190px;
+  background-color: #ff5000;
+  font-size: 16px;
+  text-align: center;
+}
+
+.site-screen-main .tbh-nav .nav-hd{
+  float: left;
+}
+
+.site-screen-main .tbh-nav .nav-hd li{
+  position: relative;
+  float: left;
+  padding: 0 7px;
+}
+
+.site-screen-main .tbh-nav .nav-hd li:hover::before,
+.site-screen-main .tbh-nav .nav-bd li.hover:hover::before{
+  content: '\e611';
+  font-family: iconfont;
+  height: 20px;
+  color: #ff5000;
+  top: -17px;
+  position: absolute;
+  left: 54%;
+  font-size: 30px;
+  margin-left: -15px;
+  overflow-y: hidden;
+}
+
+.site-screen-main .tbh-nav .nav-hd li a{
+  padding: 0 5px;
+  color: inherit;
+  font-weight: 700;
+}
+
+.site-screen-main .tbh-nav .nav-bd{
+  float: left;
+}
+
+.site-screen-main .tbh-nav .nav-bd li{
+  position: relative;
+  float: left;
+  padding-left: 7px;
+  font-size: 14px;
+}
+
+.site-screen-main .tbh-nav .nav-bd li a{
+  display: block;
+  padding: 0 5px;
+  color: inherit;
+  font-weight: 700;
+  
 }

@@ -475,5 +475,15 @@ body{
   padding: 0 5px;
   color: inherit;
   font-weight: 700;
-  
+}
+
+.site-screen-main .main{
+  width: 900px;
+  height: 522px;
+}
+
+.site-screen-main .col-right{
+  width: 290px;
+  height: 522px;
+  background: #ddd;
 }

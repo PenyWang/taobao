@@ -493,6 +493,7 @@ body{
 }
 
 .site-screen-main .main .tbh-service{
+  float: left;
   width: 190px;
   height: 522px;
   padding: 5px 0 3px;
@@ -524,11 +525,98 @@ body{
   text-decoration: underline;
 }
 
-.site-screen-main .main .tbh-service .service-item .icon-you{
+.site-screen-main .main .tbh-service .service-item .icon-next{
   position: absolute;
   top: -1px;
   right: 5px;
   transform: scale(.6);
+}
+
+.site-screen .main .core{
+  float: left;
+  width: 520px;
+  height: 512px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.site-screen .main .core .promo{
+  position: relative;
+  width: 520px;
+  height: 280px;
+}
+
+.site-screen .main .core .promo:hover .iconfont{
+  display: block;
+}
+
+.site-screen .main .core .promo .iconfont{
+  display: none;
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  line-height: 30px;
+  top: 50%;
+  margin-top: -15px;
+  background: rgba(0, 0, 0, .2);
+  color: #fff;
+  cursor: pointer;
+}
+
+.site-screen .main .core .promo .iconfont:hover{
+  background: rgba(0, 0, 0, .5);
+}
+
+.site-screen .main .core .promo .icon-prev{
+  left: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.site-screen .main .core .promo .icon-next{
+  right: 0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-indent: 4px;
+}
+
+.site-screen .main .core .promo .promo-nav{
+  display: flex;
+  position: absolute;
+  width: 70px;
+  height: 14px;
+  align-items: center;
+  bottom: 15px;
+  left: 50%;
+  margin-left: -35px;
+  border-radius: 7.5px;
+  background: rgba(255, 255, 255, .3);
+}
+
+.site-screen .main .core .promo .promo-nav .nav-item{
+  display: block;
+  float: left;
+  width: 14px;
+  height: 14px;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.site-screen .main .core .promo .promo-nav .nav-item.cur i{
+  background: #ff4000;
+}
+
+.site-screen .main .core .promo .promo-nav .nav-item i{
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+.site-screen .main .core .promo .promo-nav .nav-item:hover i{
+  background: #ff4000;
 }
 
 .site-screen-main .col-right{

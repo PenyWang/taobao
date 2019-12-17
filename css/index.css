@@ -619,6 +619,140 @@ body{
   background: #ff4000;
 }
 
+/* *************************main-tmall**************************** */
+.core .tbh-tmall{
+  width: 520px;
+  height: 230px;
+}
+
+.core .tbh-tmall .tmall-hd{
+  position: relative;
+  width: 100%;
+  height: 32px;
+  padding-top: 11px;
+  border-bottom: 3px solid #ff1648;
+  
+}
+
+.core .tbh-tmall .tmall-hd .inner{
+  height: 18px;
+  width: 100%;
+  line-height: 18px;
+  overflow: hidden;
+}
+
+.core .tbh-tmall .tmall-hd .hd-bg{
+  display: inline-block;
+  width: 136px;
+  height: 19px;
+  background: url(http://img.alicdn.com/tfs/TB1thpcbUgQMeJjy0FjXXaExFXa-122-22.png) no-repeat 0 0/122px 22px;
+  vertical-align: middle;
+}
+
+.core .tbh-tmall .tmall-hd em{
+  font-size: 12px;
+  color: #666;
+}
+
+.core .tbh-tmall .tmall-hd strong{
+  float: right;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+.core .tbh-tmall .tmall-hd strong i{
+  color: #ff1648;
+}
+
+.core .tbh-tmall .tmall-hd .tmall-nav{
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  top: 29px;
+}
+
+.core .tbh-tmall .tmall-hd .tmall-nav li{
+  float: left;
+  width: 86px;
+  height: 3px;
+  cursor: pointer;
+}
+
+.core .tbh-tmall .tmall-hd .tmall-nav li.cur{
+  background: #000;
+}
+.core .tbh-tmall .tmall-hd .tmall-nav li:nth-child(1), 
+.core .tbh-tmall .tmall-hd .tmall-nav li:nth-child(2), 
+.core .tbh-tmall .tmall-hd .tmall-nav li:nth-child(3), 
+.core .tbh-tmall .tmall-hd .tmall-nav li:nth-child(4) {
+  width: 87px;
+}
+
+.core .tbh-tmall .tmall-bd{
+  position: relative;
+  width: 100%;
+  height: 201px;
+  background: #fff;
+}
+
+.core .tbh-tmall .tmall-bd:hover .icon-prev,
+.core .tbh-tmall .tmall-bd:hover .icon-next{
+  display: block;
+}
+
+.core .tbh-tmall .tmall-bd .icon-prev,
+.core .tbh-tmall .tmall-bd .icon-next{
+  display: none;
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  line-height: 30px;
+  top: 50%;
+  margin-top: -15px;
+  background: rgba(0, 0, 0, .2);
+  color: #fff;
+  cursor: pointer;
+}
+
+.core .tbh-tmall .tmall-bd .icon-prev{
+  left: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.core .tbh-tmall .tmall-bd .icon-prev:hover,
+.core .tbh-tmall .tmall-bd .icon-next:hover{
+  background: rgba(0, 0, 0, .5);
+}
+
+.core .tbh-tmall .tmall-bd .icon-next{
+  right: 0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-indent: 3px;
+}
+
+.core .tbh-tmall .tmall-bd .mod-1{
+  width: 100%;
+  height: 100%;
+}
+
+.core .tbh-tmall .tmall-bd .mod-1 a{
+  display: block;
+  float: left;
+  width: 251px;
+  height: 190px;
+  margin-top: 6px;
+  margin-left: 6px;
+}
+
+.core .tbh-tmall .tmall-bd .mod-1 a img{
+  width: 100%;
+  height: 100%;
+}
+
 .site-screen-main .col-right{
   float: left;
   width: 290px;

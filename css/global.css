@@ -21,7 +21,7 @@ ul{
   list-style: none;
 }
 
-div,li{
+div,ul,li,a{
   box-sizing: border-box;          /* 常规边框padding向内收缩 */
   -moz-box-sizing: border-box;     /* firefox */
   -webkit-box-sizing: border-box;  /* chrome */

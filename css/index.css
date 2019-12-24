@@ -6,6 +6,20 @@ body{
   color: #3C3C3C;
   font-family: tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 1190px){
+  .main .sub-column{
+    display: none;
+  }
+  .layer.site-screen-main .main{
+    width: 730px;
+  }
+  .layer.site-screen-main{
+    min-width: 1020px;
+    width: 1020px;
+  }
 }
 
 .tbh-icon{
@@ -125,6 +139,7 @@ body{
 
 
 .site-superbanner{
+  min-width: 1190px;
   background: url(https://gw.alicdn.com/tfs/TB1b4SkoHj1gK0jSZFuXXcrHpXa-1917-100.png) no-repeat top center #ff4600;
 }
 
@@ -356,6 +371,7 @@ body{
 
 .tbh-search .search-wrap .search-panel .combobox .icon-Camera{
   position: absolute;
+  top: -6px;
   right: 15px;
   font-size: 32px;
   color: #a5a0a0;
@@ -423,6 +439,7 @@ body{
 /* *******************************tbh-nav*********************************** */
 
 .site-screen-main{
+  min-width: 1190px;
   background: #f4f4f4;
 }
 
@@ -1009,20 +1026,94 @@ body{
   height: 75px;
   border-right: 1px solid #f4f4f4;
   border-bottom: 1px solid #f4f4f4;
+  color: #3c3c3c;
+  text-align: center;
+  line-height: 24px;
+}
+
+.site-screen-main .col-right .tbh-conve li a:hover{
+  color: #f40;
 }
 
 .site-screen-main .col-right .tbh-conve a .tbh-icon{
   display: block;
   width: 24px;
   height: 24px;
-  /* background-size: 24px 590px; */
+  margin: 12px auto 5px;
+}
+
+.site-screen-main .col-right .tbh-conve .conve-item1 a .tbh-icon{
+  background-position: 0 0;
 }
 
 .site-screen-main .col-right .tbh-conve .conve-item2 a .tbh-icon{
   background-position: 0 -87px;
 }
 
+.site-screen-main .col-right .tbh-conve .conve-item3 a .tbh-icon{
+  background-position: 0 -44px;
+}
+
+.site-screen-main .col-right .tbh-conve .conve-item4 a .tbh-icon{
+  background-position: 0 -132px;
+}
+
+.site-screen-main .col-right .tbh-conve .conve-item5 a .tbh-icon{
+  background-position: 0 -176px;
+}
+
+.site-screen-main .col-right .tbh-conve .conve-item6 a .tbh-icon{
+  background-position: 0 -220px;
+}
+
+.site-screen-main .col-right .tbh-conve .conve-item7 a .tbh-icon{
+  background-position: 0 -264px;
+}
+
+.site-screen-main .col-right .tbh-conve .conve-item8 a .tbh-icon{
+  background-position: 0 -308px;
+}
+
 .site-screen-main .col-right .tbh-app{
   width: 100%;
   height: 77px;
+  background-color: #fff;
+}
+
+.site-screen-main .col-right .tbh-app .app-hd{
+  height: 30px;
+  line-height: 30px;
+  text-indent: 1em;
+}
+
+.site-screen-main .col-right .tbh-app .app-hd a{
+  float: right;
+  margin-right: 14px;
+  font-size: 12px;
+  color: #3c3c3c;
+  font-weight: 400;
+}
+
+.site-screen-main .col-right .tbh-app .app-hd a .icon-next{
+  font-size: 10px;
+}
+
+.site-screen-main .col-right .tbh-app .app-hd a:hover{
+  color: #f40;
+}
+
+.site-screen-main .col-right .tbh-app .app-bd{
+  padding-left: 23px;
+}
+
+.site-screen-main .col-right .tbh-app .app-bd li{
+  float: left;
+  width: 32px;
+  height: 32px;
+  margin-right: 21px;
+}
+
+.site-screen-main .col-right .tbh-app .app-bd li img{
+  width: 100%;
+  height: 100%;
 }
